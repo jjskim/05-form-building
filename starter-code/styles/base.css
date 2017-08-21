@@ -46,7 +46,18 @@ a:visited {
 /*FORM STYLES
 =======================================*/
 /*DONE: Add the CSS needed to style the form*/
-
+form input{
+border-top: none;
+border-right: none;
+border-bottom: solid blue 2px;
+border-left: none;
+}
+form input:focus{
+border-top: none;
+border-right: none;
+border-bottom: solid green 2px;
+border-left: none;
+}
 label {
   display:block;
 }
